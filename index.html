@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Navbar</title>
+    <link rel="stylesheet" href="navbar.css" />
+  </head>
+  <body>
+    // HTML structure
+    <nav class="navbar">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Topics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Java</a>
+            <a class="dropdown-item" href="#">Data Mining</a>
+            <a class="dropdown-item" href="#">iOS</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="navbar.js"></script>
+  </body>
+</html>
